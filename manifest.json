@@ -1,10 +1,12 @@
 {
   "manifest_version": 2,
   "name": "Fix Chris",
-  "version": "0.1.0",
+  "version": "0.1.1-dev",
+  "default_locale": "en",
   "short_name": "Chris Morris' name needs some fixin",
   "description": "This extension changes Chris' name from Me to Chris Morris.",
   "author": "Matt Koskela",
+  "homepage_url": "https://github.com/mattkoskela/fixchris",
   "content_scripts": [
     {
       "matches": ["https://mail.google.com/*"],
