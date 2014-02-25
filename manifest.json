@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Fix Chris",
+  "version": "0.1.0",
+  "short_name": "Chris Morris' name needs some fixin",
+  "description": "This extension changes Chris' name from Me to Chris Morris.",
+  "author": "Matt Koskela",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["jquery.js", "fix_chris.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.jpg",
+    "48": "icon48.jpg",
+    "128": "icon128.jpg"
+  }
+}
